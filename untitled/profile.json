@@ -1,4 +1,18 @@
+
 {
-  "name": "application-name",
-  "version": "0.0.1"
+  "profile": [
+    {
+      "name":"Nguyễn Quang Sang",
+      "University":"Student at University of Science Ho Chi Minh City",
+      "Country" :"Vietnam   ",
+      "University1":"Software Engineering",
+      "Current":"Thành Phố Hồ Chí Minh",
+      "Previous":"Nha Trang, Khánh Hòa",
+      "des1":"Coding .NET over 1 year",
+      "des2":"Currently Student at Univerisity of Science, the school of VietNam's university",
+      "des3":"Experience on coding C++",
+      "des4":"Specialites: strategy, marketing, product developement"
+    }
+  ]
+
 }
