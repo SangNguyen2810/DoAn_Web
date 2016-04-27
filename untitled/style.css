@@ -4,6 +4,7 @@ body {
     line-height: 17px;
     color: #333;
     font-weight: normal;
+	text-decoration: none;
 }
 
 #body, #footer {
@@ -515,16 +516,7 @@ li {
     color: #434649;
 }
 
-.background-summary h3:before {
-    font-family: "LinkedIn-Glyphs-2.0.7","LinkedIn-Glyphs";
-    font-weight: normal;
-    font-style: normal;
-    text-decoration: inherit;
-    speak: none;
-    font-size: 32px;
-    color: inherit;
-    content: "\e039";
-}
+
 
 .background-section h3:before, .background-section-drag-proxy h3:before {
     float: left;
@@ -546,16 +538,6 @@ li {
     border-bottom: 1px solid #e8e8e8;
 }
 
-.background-experience h3:before {
-    font-family: "LinkedIn-Glyphs-2.0.7","LinkedIn-Glyphs";
-    font-weight: normal;
-    font-style: normal;
-    text-decoration: inherit;
-    speak: none;
-    font-size: 32px;
-    color: inherit;
-    content: "\e03a";
-}
 .background-section h3:before, .background-section-drag-proxy h3:before {
     float: left;
     width: 50px;
@@ -635,16 +617,7 @@ article, aside, details, figcaption, figure, footer, header, menu, nav, section,
     margin-bottom: 30px;
 }
 
-.background-volunteering h3:before {
-    font-family: "LinkedIn-Glyphs-2.0.7","LinkedIn-Glyphs";
-    font-weight: normal;
-    font-style: normal;
-    text-decoration: inherit;
-    speak: none;
-    font-size: 32px;
-    color: inherit;
-    content: "\e041";
-}
+
 
 .background-section h3:before, .background-section-drag-proxy h3:before {
     float: left;
@@ -657,16 +630,7 @@ article, aside, details, figcaption, figure, footer, header, menu, nav, section,
     border-bottom: 1px solid #e8e8e8;
 }
 
-.background-skills h3:before {
-    font-family: "LinkedIn-Glyphs-2.0.7","LinkedIn-Glyphs";
-    font-weight: normal;
-    font-style: normal;
-    text-decoration: inherit;
-    speak: none;
-    font-size: 32px;
-    color: inherit;
-    content: "\e03c";
-}
+
 .background-section h3:before, .background-section-drag-proxy h3:before {
     float: left;
     width: 50px;
@@ -800,16 +764,7 @@ a.endorse-item-name-text {
     border-bottom: 1px solid #e8e8e8;
 }
 
-.background-education h3:before {
-    font-family: "LinkedIn-Glyphs-2.0.7","LinkedIn-Glyphs";
-    font-weight: normal;
-    font-style: normal;
-    text-decoration: inherit;
-    speak: none;
-    font-size: 32px;
-    color: inherit;
-    content: "\e03b";
-}
+
 
 .background-section h3:before, .background-section-drag-proxy h3:before {
     float: left;
@@ -847,39 +802,4 @@ a.endorse-item-name-text {
     color: #000;
     text-decoration: none;
 }
-.account-icons {
-    float: right;
-    margin: 0 0 0 10px;
-    position: relative;
-    z-index: 1;
-}
-.account-icons #badge-container, .account-icons #badge, .account-icons #badge-view
-{
-    display: -moz-inline-stack;
-    display: inline-block;
-    vertical-align: middle;
-    zoom: 1;
-    vertical-align: top;
-}
-.account-icons .influencericon {
-    display: -moz-inline-stack;
-    display: inline-block;
-    vertical-align: middle;
-    zoom: 1;
-    vertical-align: baseline;
-    font-size: 14px;
-    line-height: 14px;
-    color: #333;
 
-    text-indent: -119988px;
-    overflow: hidden;
-    text-align: left;
-    background-position: 0 0;
-    width: 90px;
-    height: 22px;
-    margin: 0 0 0 4px;
-    display: -moz-inline-stack;
-    display: inline-block;
-    vertical-align: middle;
-    zoom: 1;
-}
