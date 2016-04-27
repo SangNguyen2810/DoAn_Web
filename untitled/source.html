@@ -90,7 +90,7 @@
                                                         <li>
                                                                 <span>
                                                                     <strong>
-                                                                        <a></a>
+                                                                        <a>{{y.HighSchool}}</a>
                                                                     </strong>
                                                                 </span>
                                                         </li>
@@ -125,7 +125,7 @@
                                                     <br>
                                                     {{z.des3}}<br>
                                                     <br>
-                                                    {{z.des5}}</p>
+                                                    {{z.des4}}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -135,20 +135,18 @@
                                     <div id="background-experience" class="background-experience edit-default">
                                         <img src="image/Hinh2.png">
                                         <h3>Experience</h3>
-                                        <div id="experience-58506340" class="editable-item section-item current-position">
-                                            <div id="experience-58506340-view">
+                                        <div id="experience-58506340" class="editable-item section-item current-position" >
+                                            <div id="experience-58506340-view" ng-repeat="x in myData">
                                                 <header>
-                                                    <h4><a>CEO</a></h4>
+                                                    <h4><a>{{x.exp1}}</a></h4>
                                                     <h5>
-                                                        <strong><a>LinkedIn</a></strong>
+                                                        <strong><a>{{x.exp2}}</a></strong>
                                                     </h5>
                                                 <span class="experience-date-locale">
-                                                    <time>December 2008</time> – Present (7 years 5 months)
+                                                    <time>{{x.exp3}}</time> {{x.exp4}}
                                                 </span>
                                                     <p class="description summary-field-show-more" dir="ltr">
-                                                        Connecting the world's professionals to make them more productive and successful.
-                                                        Since joining the company in December 2008, LinkedIn has expanded its global platform to 23 languages and more than 30 offices around the world, grown its membership base from 33M to more than 347M, and increased its revenue from $78M to over $2.2B in 2014.
-                                                    </p>
+                                                        {{x.exp5}}
                                                 </header>
                                             </div>
                                         </div>
@@ -157,31 +155,22 @@
                                 <div id="background-volunteering-container" class="background-section" data-li-template="volunteering_section">
                                     <div id="background-volunteering" class="background-volunteering">
                                         <img src="image/Hinh4.PNG">
-                                        <h3>Volunteer Experience & Causes</h3>
-                                        <div id="volunteering-interests" class="editable-item section-item first">
-                                            <div id="volunteering-causes-view" class="volunteer-section">
+                                        <h3>Projects</h3>
+                                        <div id="volunteering-interests" class="editable-item section-item first" ng-repeat="i in myData">
+                                            <div id="volunteering-causes-view" class="volunteer-section" >
                                                 <div class="interests">
-                                                    <h4>Causes Jeff cares about:</h4>
+                                                    <h4>Causes Sang cares about:</h4>
                                                     <p class="description summary-field-show-more" dir="ltr">
-                                                        Connecting the world's professionals to make them more productive and successful.
-                                                        Since joining the company in December 2008.
+                                                        {{i.proj}}
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div id="volunteering-organizations-view" class="volunteer-section">
-                                                <div class="non-profits  under">
-                                                    <h4>Causes Jeff cares about:</h4>
-                                                    <p class="description summary-field-show-more" dir="ltr">
-                                                        Connecting the world's professionals to make them more productive and successful.
-                                                        Since joining the company in December 2008.
-                                                    </p>
-                                                </div>
-                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
                                 <div id="background-skills-container" class="background-section" data-li-template="skills_section">
-                                    <div id="background-skills" class="background-skills edit-default">
+                                    <div id="background-skills" class="background-skills edit-default" ng-repeat="a in myData">
                                         <div class="hd">
                                             <img src="image/Hinh3.jpg">
                                             <h3>Skills</h3>
@@ -197,7 +186,7 @@
                                                                 <span class="num-endorsements" data-count="242">99+</span>
                                                             </a>
                                                             <span class="endorse-item-name">
-                                                                <a class="endorse-item-name-text">Business Strategy</a>
+                                                                <a class="endorse-item-name-text">{{a.sk}}</a>
                                                             </span>
                                                         </span>
                                                         </li>
@@ -207,7 +196,7 @@
                                                                 <span class="num-endorsements" data-count="242">99+</span>
                                                             </a>
                                                             <span class="endorse-item-name">
-                                                                <a class="endorse-item-name-text">Business Strategy</a>
+                                                                <a class="endorse-item-name-text">{{a.sk}}</a>
                                                             </span>
                                                         </span>
                                                         </li>
@@ -217,12 +206,12 @@
                                                                 <span class="num-endorsements" data-count="242">99+</span>
                                                             </a>
                                                             <span class="endorse-item-name">
-                                                                <a class="endorse-item-name-text">Business Strategy</a>
+                                                                <a class="endorse-item-name-text">{{a.sk}}</a>
                                                             </span>
                                                         </span>
                                                         </li>
                                                     </ul>
-                                                    <h5>Jeff also knows about...</h5>
+                                                    <h5>Sang also knows about...</h5>
                                                     <ul class="skills-section compact-view">
                                                         <li data-endorsed-item-name="Social Media" class="endorse-item has-endorsements " data-endorsement-id="">
                                                             <div>
@@ -231,7 +220,7 @@
                                                                     <span class="num-endorsements" data-count="65">65</span>
                                                                 </a>
                                                                 <span class="endorse-item-name">
-                                                                    <a class="endorse-item-name-text">Social Media</a>
+                                                                    <a class="endorse-item-name-text">{{a.sk1}}</a>
                                                                 </span>
                                                             </span>
                                                             </div>
@@ -243,7 +232,7 @@
                                                                     <span class="num-endorsements" data-count="65">65</span>
                                                                 </a>
                                                                 <span class="endorse-item-name">
-                                                                    <a class="endorse-item-name-text">Social Media</a>
+                                                                    <a class="endorse-item-name-text">{{a.sk1}}</a>
                                                                 </span>
                                                             </span>
                                                             </div>
@@ -255,7 +244,7 @@
                                                                     <span class="num-endorsements" data-count="65">65</span>
                                                                 </a>
                                                                 <span class="endorse-item-name">
-                                                                    <a class="endorse-item-name-text">Social Media</a>
+                                                                    <a class="endorse-item-name-text">{{a.sk1}}</a>
                                                                 </span>
                                                             </span>
                                                             </div>
@@ -267,7 +256,7 @@
                                                                     <span class="num-endorsements" data-count="65">65</span>
                                                                 </a>
                                                                 <span class="endorse-item-name">
-                                                                    <a class="endorse-item-name-text">Social Media</a>
+                                                                    <a class="endorse-item-name-text">{{a.sk1}}</a>
                                                                 </span>
                                                             </span>
                                                             </div>
